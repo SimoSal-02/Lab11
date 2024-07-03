@@ -51,6 +51,7 @@ class Controller:
         self._view.update_page()
 
 
+
     def fillDDProduct(self):
         myOptNodes = list(map(lambda x: ft.dropdown.Option(x),self._model.getNodes()))
         self._view._ddnode.options = myOptNodes

@@ -6,6 +6,7 @@ class DAO():
     def __init__(self):
         pass
 
+
     @staticmethod
     def getAllColor():
         conn = DBConnect.get_connection()
